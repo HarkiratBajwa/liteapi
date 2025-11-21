@@ -1,0 +1,13 @@
+{
+  "name": "yourname/liteapi",
+  "description": "LiteAPI – a tiny PHP REST API micro-framework.",
+  "type": "project",
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "LiteAPI\\": "src/"
+    }
+  }
+}
